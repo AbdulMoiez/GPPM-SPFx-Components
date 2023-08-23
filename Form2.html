@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GPPM-SPFx Forms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <ul class="nav nav-tabs">
+        <li><a  href="Form1.html">Employee Self Service HR Application</a></li>
+        <li class="active"><a  href="Form2.html">Employee Self Service HR Application History</a></li>
+        <li><a  href="Form3.html">Waiting For Your Input</a></li>
+        <li><a  href="#">Process Flow</a></li>
+        <li><a  href="#">Need Help?</a></li>
+      </ul>
+            
+ 
+              <table class="form2-table">
+                <tr>
+                    <!-- <td colspan="2"  style="width: 140px;">Request Form Type</td> -->
+                    <td colspan="6">
+                        <label for="form2-select1" style="font-size: 12px; padding-right: 23px;">Request Form Type</label>
+                        <select  name="dept" id="form2-select1">
+                            <option value=""></option>
+                            <option value="Dept 01">Dept 01</option>
+                            <option value="Dept 02">Dept 02</option>
+                            <option value="Dept 03">Dept 03</option>
+                            
+                        </select>
+                    </td>
+                    <td   style="font-size: 12px; padding: 0 20px 0 0;">Department</td>
+                    <td colspan="2"> 
+                        <select  name="dept" id="form2-select2">
+                            <option value=""></option>
+                            <option value="Dept 01">Dept 01</option>
+                            <option value="Dept 02">Dept 02</option>
+                            <option value="Dept 03">Dept 03</option>
+                            
+                        </select>
+                    </td>
+                    <td  class="row1-pad" style="font-size: 12px;">Employee</td>
+                    <td colspan="2">
+                        <input type="text" name="form2-input1" id="form2-input1" placeholder="StaffAAA">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="" style="padding-right: 25px;font-size: 12px;">From</td>
+                    <td colspan="">
+                        <!-- <label for="test1">From</label> -->
+                        <input  class="form2-date-input1" type="date" name="" id="test1" ></td>
+                    <td colspan="" class="row2-pad" >To</td>
+                    <td colspan="">
+                        <!-- <label for="test2">To</label> -->
+                        <input  class="form2-date-input1" type="date" name="" id="test2" ></td>
+                    <td colspan="" class="row2-pad" >Status</td>
+                    <td colspan="">  
+                        <!-- <label for="form2-select2">Status</label>  -->
+                        <select  name="dept" id="form2-select2">
+                        <option value=""></option>
+                        <option value="Dept 01">Dept 01</option>
+                        <option value="Dept 02">Dept 02</option>
+                        <option value="Dept 03">Dept 03</option>
+                        
+                    </select>
+                </td>
+                <td class="form2-btn-div">
+                    <button type="button" class="btn btn-primary">Clear</button>
+                    <button type="button" class="btn btn-primary">Search</button>
+                    <button type="button" class="btn btn-primary">Export Excel</button>
+                    <button type="button" class="btn btn-primary">Export PDF</button>
+                </td>
+               </table>
+               <table  style="width: 100%;">
+                </tr>
+                <tr class="form2-row3" style="background-color: #CBCBCB;">
+                    <td  colspan="2">Req.Form No.</td>
+                    <td  colspan="2">Application Date</td>
+                    <td  colspan="2">Request Form Type</td>
+                    <td  colspan="2">Department</td>
+                    <td  colspan="2">Employee No.</td>
+                    <td  colspan="2">Employee</td>
+                    <td  colspan="2">Status</td>
+                    <td  colspan="2">Audit Count</td>
+                    <td  colspan="2">Action</td>
+                </tr>
+                <tr class="form2-row3">
+                    <td  colspan="2">EMCT20221118001</td>
+                    <td  colspan="2">2021/11/18</td>
+                    <td  colspan="2">Employment</td>
+                    <td  colspan="2">Dept1</td>
+                    <td  colspan="2">0001</td>
+                    <td  colspan="2">StaffAAA</td>
+                    <td  colspan="2">02 Completed</td>
+                    <td  colspan="2">3</td>
+                    <td  colspan="2" style="color: #FF9900;padding: 0px;"><i class="fa-solid fa-magnifying-glass" style="font-size: 27px;"></i></td>
+                </tr>
+                <tr>
+                    <td style="padding: 30px; border: none;"></td>
+                </tr>
+                <tr style="border: 2px solid #000;">
+                    <td class="version-heading" colspan="18">Employee Self Service HR Application Management System Ver.1.0</td>
+                </tr>
+              </table>
+
+
+</body>
+</html>
