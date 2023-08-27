@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tabs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tabs/TabsWebPart.js",
+          "manifest": "./src/webparts/tabs/TabsWebPart.manifest.json"
+        }
+      ]
+    },
+    "ess-hr-application-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/essHrApplication/EssHrApplicationWebPart.js",
+          "manifest": "./src/webparts/essHrApplication/EssHrApplicationWebPart.manifest.json"
+        }
+      ]
+    },
+    "ess-hr-application-history-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/essHrApplicationHistory/EssHrApplicationHistoryWebPart.js",
+          "manifest": "./src/webparts/essHrApplicationHistory/EssHrApplicationHistoryWebPart.manifest.json"
+        }
+      ]
+    },
+    "ess-waiting-for-your-input-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/essWaitingForYourInput/EssWaitingForYourInputWebPart.js",
+          "manifest": "./src/webparts/essWaitingForYourInput/EssWaitingForYourInputWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js"
+  },
+  "localizedResources": {
+    "TabsWebPartStrings": "lib/webparts/tabs/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "EssHrApplicationWebPartStrings": "lib/webparts/essHrApplication/loc/{locale}.js",
+    "EssHrApplicationHistoryWebPartStrings": "lib/webparts/essHrApplicationHistory/loc/{locale}.js",
+    "EssWaitingForYourInputWebPartStrings": "lib/webparts/essWaitingForYourInput/loc/{locale}.js"
+  }
+}
