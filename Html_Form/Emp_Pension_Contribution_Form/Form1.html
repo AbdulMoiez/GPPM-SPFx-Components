@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GPPM-SPFx Forms</title>
+  <title>Emp Pension Contribution App Form 1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,7 +10,7 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -67,19 +67,29 @@
                             <th colspan="6" class="th-change">Employee Check ( Please Check "V" )</th>
                         </tr>
                         <tr>
-                            <td colspan="2" class="samePad1">
-                                <input type="checkbox" id="unfunded" name="unfunded" value="unfunded">
-                                <label for="unfunded"> Unfunded</label> </td>
-                            <td colspan="4" style="padding: 4px 14px 2px 12px;">
-                                <input type="checkbox" id="funded" name="funded" value="funded">
-                                <label for="funded"> Funded and Adjustment</label>
+                            <td colspan="3" class="samePad1">
+                                    <input class="same-Box-inp" type="checkbox" id="unfunded">
+                                    <label class="same-Box-label" for="unfunded">Unfunded</label>
+
+                             </td>
+                            <td colspan="3" style="padding: 4px 14px 2px 12px;" class="funded-style">
+                               
+                                    <input class="same-Box-inp" type="checkbox" id="funded" name="funded" value="funded">
+                                    <label for="funded" class="same-Box-label" >Funded and Adjustment</label>
+                                   
+                                <!-- <label for="funded"> Funded and Adjustment</label> -->
+                                <input type="checkbox" name="1percentage" id="1percentage" value="5%" class="same-border"> 
+                                <label for="1percentage">1%</label>
+                                <input type="checkbox" name="2percentage" id="2percentage" value="5%" class="same-border"> 
+                                <label for="2percentage">2%</label>
+                                <input type="checkbox" name="3percentage" id="3percentage" value="5%" class="same-border"> 
+                                <label for="3percentage">3%</label>
+                                <input type="checkbox" name="4percentage" id="4percentage" value="5%" class="same-border"> 
+                                <label for="4percentage">4%</label>
                                 <input type="checkbox" name="5percentage" id="5percentage" value="5%" class="same-border"> 
                                 <label for="5percentage">5%</label>
-                                <input type="number" id="type%" style="width: 58px;"  class="same-border">
-                                <label for="type%">%</label>
-                                <input type="checkbox" name="" id=""  class="same-border">
-                                <input type="number" name="" id="integer" style="    width: 119px;"  class="same-border">
-                                <label for="integer">( Please fill in an integer in thousands)</label>
+                                <input type="checkbox" name="6percentage" id="6percentage" value="5%" class="same-border"> 
+                                <label for="6percentage">6%</label>
         
                             </td>
                         </tr>
@@ -116,17 +126,11 @@
                         </tr>
                         
                        </table>
-
                        
                     </div>
                     <div class="col-3" ></div>
                 </div>
-              </div>              
-            
-       <table style="width: 100%;">
-        <tr style="border: 2px solid #000;">
-            <td class="version-heading" colspan="18">Employee Self Service HR Application Management System Ver.1.0</td>
-        </tr>
-       </table>
+              </div>  
+
 </body>
 </html>
