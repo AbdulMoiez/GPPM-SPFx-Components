@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ess-portal-client-side-solution",
+    "id": "0fd36a4f-5e6c-41f6-82ee-516b1dc9d2ff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ESS-Portal description"
+      },
+      "longDescription": {
+        "default": "ESS-Portal description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ess-portal Feature",
+        "description": "The feature that activates elements of the ess-portal solution.",
+        "id": "c9cc6586-e6fb-4ef7-807e-23ea579180f7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ess-portal.sppkg"
+  }
+}
