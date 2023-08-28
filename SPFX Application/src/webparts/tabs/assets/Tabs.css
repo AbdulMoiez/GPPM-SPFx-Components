@@ -1,0 +1,25 @@
+.addui-Tabs .addui-Tabs-tabHolder {
+  display: flex;
+}
+
+.addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab {
+  border: 2px solid black !important;
+  border-radius: 15px 15px 0 0;
+  padding: 2px 16px !important;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ededed !important;
+}
+
+.addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab.addui-Tabs-active {
+  background-color: #fff !important;
+  border-bottom: 0 !important;
+}
+
+.addui-Tabs .addui-Tabs-content {
+  display: none;
+}
+
+.addui-Tabs .addui-Tabs-content.addui-Tabs-active {
+  display: block;
+}
