@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Emp Cert App Form 1</title>
+  <title>Employee_Withholding_tax_Provision_App_Form</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-3"></div>
                     <div class="col-6">
-                       <table class="First-table" style="width: 90%;">
+                       <table class="First-table">
                         <thead>
                             <tr>
                                 <th class="table-head" colspan="6">
@@ -38,7 +38,7 @@
                         </thead>
                         <tr>
                             <td class="fixed-width">Description</td>
-                            <td colspan="5" class="same-textarea"><textarea name="" id="" cols="90" rows="3" style="border: 2px solid #878181; color: #878181;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima aperiam, quo ex libero officia nulla fugiat exercitationem odit itaque alias culpa eaque vel, totam molestiae ea. Saepe, optio quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. </textarea></td>
+                            <td colspan="5" class="same-textarea"><textarea name="" id="" cols="90" rows="3" style="border: 2px solid #878181; color: #878181;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima aperiam, quo ex libero officia nulla fugiat exercitationem odit itaque alias culpa eaque vel, totam molestiae ea. Saepe, optio quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, distinctio sunt? A laboriosam labore ex neque ipsam nemo. Ad sunt atque aut iste </textarea></td>
                         </tr>
                         <tr>
                             <td colspan="2" class="samePad1">Department</td>
@@ -64,27 +64,24 @@
                             <td colspan="2" class="samePad2"><input type="text" class="wide-input" placeholder="StaffAAA"></td>
                         </tr>
                         <tr>
-                            <td colspan="6" class="quantiy-col">
-                                    <span style="margin-right: 8px;">Quantity</span>
-                                    <input class="same-Box-inp" type="checkbox" id="copy1">
-                                    <label class="same-Box-label" for="copy1">1 Copy </label>
-                                    <input class="same-Box-inp" type="checkbox" id="copy2">
-                                    <label class="same-Box-label" for="copy2"> 2 Copies</label>
-                                    <input class="same-Box-inp" type="checkbox" id="copy3">
-                                    <label class="same-Box-label" for="copy3"></label>
-                                    <input type="number" id="copy4" style="border: 2px solid #878181;">
-                                    <label   for="copy4">Copies</label>
-
-                            </td>
+                            <th colspan="6" class="th-change">Employee Check ( Please Check "V" )</th>
                         </tr>
                         <tr>
-                            <td  class="fixed-width2">
-                                Reason for Application
+                            <td colspan="2" class="samePad1">
+                                <input class="same-Box-inp" type="checkbox" id="unfunded">
+                                 <label class="same-Box-label" for="unfunded">Unfunded</label>
+                            <td colspan="4" style="padding: 4px 14px 2px 12px;">
+                                <input class="same-Box-inp" type="checkbox" id="funded" name="funded" value="funded">
+                                <label for="funded" class="same-Box-label" >Funded and Adjustment</label>
+                                <input type="checkbox" name="5percentage" id="5percentage" value="5%" class="same-border"> 
+                                <label for="5percentage">5%</label>
+                                <input type="number" id="type%" style="width: 58px;"  class="same-border">
+                                <label for="type%">%</label>
+                                <input type="checkbox" name="" id=""  class="same-border">
+                                <input type="number" name="" id="integer" style="    width: 119px;"  class="same-border">
+                                <label for="integer">( Please fill in an integer in thousands)</label>
+        
                             </td>
-                            <td colspan="6" class="samePad1" style="border-left: none;">
-                                <textarea name="" id="emp-cert-textarea" cols="3" rows="5"></textarea>
-                             </td>
-                            
                         </tr>
                         <tr>
                             <td colspan="2" class="samePad3" style="font-weight: 600;">Request Form No.</td>
@@ -123,7 +120,8 @@
                     </div>
                     <div class="col-3" ></div>
                 </div>
-              </div>  
-
+              </div>              
+            
+       
 </body>
 </html>
