@@ -271,3 +271,131 @@ text-align: center;
     font-weight: 600;
     border-right: none;
   }
+
+
+  /* Emp_Dep_NHI_Enrollment_&_Withdrawal_App_Form style start from here */
+
+
+  #imageUpload{
+    width: 100%;
+    height: 80px;
+    border: 2px solid #000;
+}
+
+.heading4{
+    text-align: center;
+    font-size: 18px;
+    padding: 21px;
+    border-right: none;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+
+.sp{
+    padding: 10px
+}
+.sw{
+  width: 55px;
+}
+.same_DOB{
+    width: 80px;
+    padding: 3px;
+    border: 2px solid #000;
+}
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    border: 2px solid #000;
+  }
+  .custom-select select {
+    display: none;
+
+  }
+  
+  .custom-select-label:after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .custom-options {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 2px solid #000;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  .custom-option {
+    padding: 5px;
+    cursor: pointer;
+  }
+  .custom-option input[type="checkbox"] {
+    margin-right: 5px;
+  }
+.text-align1{
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.btn-form4 button {
+  font-size: 14px;
+  border-radius: 100%;
+}
+.btn-form4{
+    float: right;
+    margin: 10px;
+}
+.btn-form4 .btn-primary{
+  margin: 3px;
+  background-color: #FFAA00 !important;
+
+}
+.textarea_4{
+  width: 100%;
+  resize: none;
+  font-size: 22px;
+  border: 2px solid #878181;
+  color: #b3b2b2;
+}
+.inp_same{
+  width: 100%;
+  border: 2px solid #000;
+} 
+.same_td{
+  padding: 30px;
+  background-color: #EDEDED;
+}
+.inside_form{
+  width: 100%; 
+  background-color: #fff;
+
+}
+
+/* Emp_Change_Personal_info_App_Form style start from here */
+.sp_text{
+  padding: 10px;
+    font-weight: 600;
+}
+.sp4{
+  padding: 8px;
+}
+.inp_same4{
+  width: 100%;
+  border: 2px solid #000;
+}
+.table_6{
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.flied_leng4{
+  width: 100%;
+    padding: 2px 2px 3px 6px;
+    border: 2px solid black;
+}
