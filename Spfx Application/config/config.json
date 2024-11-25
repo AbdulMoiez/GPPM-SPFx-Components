@@ -43,6 +43,7 @@
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
     "EssHrApplicationWebPartStrings": "lib/webparts/essHrApplication/loc/{locale}.js",
     "EssHrApplicationHistoryWebPartStrings": "lib/webparts/essHrApplicationHistory/loc/{locale}.js",
-    "EssWaitingForYourInputWebPartStrings": "lib/webparts/essWaitingForYourInput/loc/{locale}.js"
+    "EssWaitingForYourInputWebPartStrings": "lib/webparts/essWaitingForYourInput/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
   }
 }

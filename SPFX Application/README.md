@@ -1,4 +1,4 @@
-# spfx-application
+# ess-portal
 
 ## Summary
 

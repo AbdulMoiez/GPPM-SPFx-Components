@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "a984b5ff-44e5-4a7a-a551-97af000d1240",
+  "id": "5cb44290-9176-4fc5-b037-36845389843d",
   "alias": "EssHrApplicationWebPart",
   "componentType": "WebPart",
 
@@ -18,7 +18,7 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
     "group": { "default": "Advanced" },
-    "title": { "default": "ESS HR Application" },
+    "title": { "default": "ESS-HR-Application" },
     "description": { "default": "ESS-HR-Application description" },
     "officeFabricIconFontName": "Page",
     "properties": {

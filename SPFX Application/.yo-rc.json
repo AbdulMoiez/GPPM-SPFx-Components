@@ -8,12 +8,12 @@
       "@microsoft/teams-js": "2.9.1"
     },
     "version": "1.17.4",
-    "libraryName": "spfx-application",
-    "libraryId": "684f5580-0d28-48e3-b5f3-a054fbdb8dbd",
+    "libraryName": "ess-portal",
+    "libraryId": "0fd36a4f-5e6c-41f6-82ee-516b1dc9d2ff",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "spfx-application",
-    "solutionShortDescription": "spfx-application description",
+    "solutionName": "ESS-Portal",
+    "solutionShortDescription": "ESS-Portal description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "webpart"

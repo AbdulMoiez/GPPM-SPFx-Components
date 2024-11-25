@@ -3,17 +3,17 @@
 }
 
 .addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab {
-  border: 2px solid black !important;
-  border-radius: 15px 15px 0 0;
-  padding: 2px 16px !important;
+  color: rgba(0, 0, 0, .87);
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ededed !important;
+  padding: 8px !important;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .addui-Tabs .addui-Tabs-tabHolder .addui-Tabs-tab.addui-Tabs-active {
-  background-color: #fff !important;
-  border-bottom: 0 !important;
+  border-bottom: 3px solid blue;
+  background-color: #b3b3b31a;
 }
 
 .addui-Tabs .addui-Tabs-content {
